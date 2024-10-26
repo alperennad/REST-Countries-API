@@ -1,0 +1,30 @@
+.country-list {
+    display: flex; /* Flexbox ile düzenleme yap */
+    flex-wrap: wrap; /* Kartların alt satıra geçmesini sağlar */
+    justify-content: center; /* Kartlar arasında boşluk oluşturur */
+    padding: 20px;
+    margin: 50px;
+    list-style: none; /* Liste işaretlerini kaldır */
+  }
+  
+  .country-item {
+    display: grid;
+    width: 250px;
+    height: 300px;
+    padding: 0px;
+    margin: 30px; /* Sabit bir boşluk */
+    border: px solid #090909;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    overflow: hidden;
+    text-align: left;
+    transition: transform 0.2s;
+  }
+  
+  .country-item:hover {
+    transform: scale(1.05); /* Hover olduğunda biraz büyütme */
+  }
+  
+
+  

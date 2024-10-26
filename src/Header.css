@@ -1,0 +1,16 @@
+/* Header.css */
+.header {
+    background-color: #ffffff; /* White background for the header */
+    color: #333; /* Dark text color in the header */
+    padding: 10px; /* Padding around the header */
+    text-align: left; /* Center the text */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect for depth */
+    position: sticky; /* Make it stick to the top */
+    top: 0; /* Position it at the top */
+    z-index: 1000; /* Ensure it's on top of other content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  

@@ -1,0 +1,81 @@
+/* Liste yapısındaki her ülkeye border ekliyoruz */
+.country-list {
+  list-style-type: none;
+}
+
+
+.country-item:hover {
+  background-color: #f0f0f0; /* Hover durumunda arka planı biraz değiştir */
+  transform: scale(1.02); /* Hover ile hafif büyütme efekti */
+}
+
+.country-item a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+/* App.css */
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: hsl(0, 0%, 98%);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 0;
+}
+
+.search-filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px ;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 85%);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+select {
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 85%);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.country-item:hover {
+  transform: scale(1.05);
+}
+
+.country-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.country-item h2 {
+  font-size: 18px;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.country-item p {
+  margin: 5px;
+  color: hsl(0, 0%, 50%);
+}
+
+
